@@ -1,4 +1,3 @@
-// TODO: Include packages needed for this application
 const inquirer = require('inquirer')
 const fs = require('fs')
 const generateMarkdown = require('./utils/generateMarkdown.js')
@@ -66,15 +65,19 @@ function init() {
 
                 case 'Apache':
                     licenseBadge = `![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`;
+                    licenseLink = `[Apache License Information](https://opensource.org/licenses/Apache-2.0)`;
                     break;
                 case 'Boost':
                     licenseBadge = `![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)`;
+                    licenseLink = `[Boost License Information](https://www.boost.org/LICENSE_1_0.txt)`;
                     break;
                 case 'MIT':
                     licenseBadge = `![License](https://img.shields.io/badge/License-MIT-yellow.svg)`;
+                    licenseLink = `[MIT License Information](https://opensource.org/licenses/MIT)`;
                     break;
                 case 'Mozilla':
                     licenseBadge = `![License](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)`;
+                    licenseLink = `[Mozilla License Information](https://opensource.org/licenses/MPL-2.0)`;
                     break;
 
             }
