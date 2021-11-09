@@ -79,23 +79,6 @@ function init() {
 
             }
 
-            switch (answer.license) {
-
-                case 'Apache':
-                  licenseLink = `[Apache License Information](https://opensource.org/licenses/Apache-2.0)`;
-                  break;
-                case 'Boost':
-                  licenseLink = `[Boost License Information](https://www.boost.org/LICENSE_1_0.txt)`;
-                  break;
-                case 'MIT':
-                  licenseLink = `[MIT License Information](https://opensource.org/licenses/MIT)`;
-                  break;
-                case 'Mozilla':
-                  licenseLink = `[Mozilla License Information](https://opensource.org/licenses/MPL-2.0)`;
-                  break;
-            
-              }
-
             const readme = `
 # ${answer.title}
 
@@ -149,14 +132,6 @@ ${answer.tests}
             })
         })
 }
-
-// TODO: Create a function to initialize app
-// function init() {
-
-//     renderLicenseBadge(license)
-//     renderLicenseLink(license)
-//     generateMarkdown(answer)
-//  }
 
 // Function call to initialize app
 init();
