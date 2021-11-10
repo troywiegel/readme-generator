@@ -28,9 +28,11 @@ function generateMarkdown(answer) {
     const readme = `# ${answer.title}
 
 ${licenseBadge}
+<br><br>
                         
 ## Description
 ---
+<br><br>
 ${answer.description}
                         
 ## Table of Contents
@@ -46,24 +48,29 @@ ${answer.description}
 ## Installation
 ---
 ${answer.installation}
+<br><br>
                         
 ## Usage
 ---
 ${answer.usage}
+<br><br>
 
 ## License
 ---
 This project is licenesed by ${answer.license}.
 <br>
 ${licenseLink}
+<br><br>
 
 ## Contributing
 ---
 ${answer.contribution}
+<br><br>
                         
 ## Tests
 ---
 ${answer.tests}
+<br><br>
                         
 ## Questions
 ---
