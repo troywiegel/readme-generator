@@ -3,7 +3,7 @@
 <br><br>
                         
 ## Description
-This is a simple app that takes user input(s) and converts them into a professional README file.
+This is a node.js app that takes user input(s) with inquirer and converts them into a professional README file.
 <br><br>
                         
 ## Table of Contents
@@ -16,17 +16,20 @@ This is a simple app that takes user input(s) and converts them into a professio
 - [Questions](#questions)
                         
 ## Installation
-User(s) will need to
+You will need to run
 
     npm init 
+
     npm install inquirer
 
-in order to use this app.
+at the root of your project within a code editor to use this app.
 <br><br>
                         
 ## Usage
-Open the terminal within your code editor, run node index.js, then answer the prompts to generate your README file.
-<br><br>
+Open the terminal within your code editor, run the following command at the root of your project, then answer the prompts to generate your README file.
+
+    node index.js
+<br>
 
 ## License
 This project is licenesed by MIT.
@@ -35,11 +38,11 @@ This project is licenesed by MIT.
 <br><br>
 
 ## Contributing
-This app was created by Troy Wiegel.
+This app was created by [Troy Wiegel](https://github.com/troywiegel).
 <br><br>
                         
 ## Tests
-N/A
+No testing at this time.
 <br><br>
                         
 ## Questions
