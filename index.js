@@ -1,5 +1,5 @@
 const inquirer = require('inquirer')
-const {generateMarkdown, renderLicense} = require('./generate.js')
+const {generateMarkdown, renderLicense} = require('./utils/generate.js')
 
 function init() {
     getAnswers()
