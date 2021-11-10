@@ -1,10 +1,6 @@
 const inquirer = require('inquirer')
 const {generateMarkdown, renderLicense} = require('./utils/generate.js')
 
-function init() {
-    getAnswers()
-}
-
 function getAnswers() {
     inquirer
         .prompt([
@@ -65,6 +61,10 @@ function getAnswers() {
             renderLicense(answer)
             generateMarkdown(answer)
         })
+}
+
+function init() {
+    getAnswers()
 }
 
 init();
