@@ -5,7 +5,7 @@
 ## Description
 This is a node.js app that takes user input(s) with inquirer and converts them into a professional README file. See link below for a visual of how the app works.
 <br>
-[Check the video out here!](https://drive.google.com/file/d/1-HnuGSC1muL6X6hfyLyNSs5BeDOigkSn/view?usp=sharing)
+https://user-images.githubusercontent.com/37552547/141598941-8fee0df0-a543-4c79-a5dc-3211cab74468.mp4
 <br><br>
                         
 ## Table of Contents
