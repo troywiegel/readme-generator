@@ -31,12 +31,10 @@ ${licenseBadge}
 <br><br>
                         
 ## Description
----
 <br><br>
 ${answer.description}
                         
 ## Table of Contents
----
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -46,34 +44,28 @@ ${answer.description}
 - [Questions](#questions)
                         
 ## Installation
----
 ${answer.installation}
 <br><br>
                         
 ## Usage
----
 ${answer.usage}
 <br><br>
 
 ## License
----
 This project is licenesed by ${answer.license}.
 <br>
 ${licenseLink}
 <br><br>
 
 ## Contributing
----
 ${answer.contribution}
 <br><br>
                         
 ## Tests
----
 ${answer.tests}
 <br><br>
                         
 ## Questions
----
 Reach out with any questions you have!
 <br>
 [GitHub](https://github.com/${answer.github}) --- [Email](${answer.email})
