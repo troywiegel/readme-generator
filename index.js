@@ -1,7 +1,9 @@
 const inquirer = require('inquirer')
 const {generateMarkdown, renderLicense} = require('./utils/generate.js')
 
+// function to get answers from user input
 function getAnswers() {
+    // using inquirer package to ask the questions
     inquirer
         .prompt([
             {
@@ -57,12 +59,14 @@ function getAnswers() {
             }
         ])
         .then((answer) => {
-
+            // funciton to add readme license options
             renderLicense(answer)
+            // generates the readme file
             generateMarkdown(answer)
         })
 }
 
+// initializes app
 function init() {
     getAnswers()
 }

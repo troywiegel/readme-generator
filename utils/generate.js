@@ -1,5 +1,6 @@
 const fs = require('fs')
 
+// function to select license based on user selection
 function renderLicense(answer) {
 
     switch (answer.license) {
@@ -23,6 +24,7 @@ function renderLicense(answer) {
     }
 }
 
+// function to generate the readme file
 function generateMarkdown(answer) {
 
     const readme = `# ${answer.title}
@@ -70,8 +72,8 @@ Reach out with any questions you have!
 <br>
 [GitHub](https://github.com/${answer.github}) --- [Email](${answer.email})
 `
-
-    fs.writeFile('./utils/README.md', readme, function (err) {
+    // writing readme file
+    fs.writeFile('README.md', readme, function (err) {
 
         err ? console.error(err) : console.log('✔️ Success! Wrote the README.md ✔️')
 
