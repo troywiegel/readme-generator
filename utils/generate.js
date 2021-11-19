@@ -79,7 +79,7 @@ Reach out with any questions you have!
 [GitHub](https://github.com/${answer.github}) --- [Email](${answer.email})
 `
 
-    fs.writeFile('README.md', readme, function (err) {
+    fs.writeFile('./utils/README.md', readme, function (err) {
 
         err ? console.error(err) : console.log('✔️ Success! Wrote the README.md ✔️')
 
